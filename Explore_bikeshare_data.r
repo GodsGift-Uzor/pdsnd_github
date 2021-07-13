@@ -5,6 +5,7 @@ library(repr)
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+library(plotly)
 
 ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
@@ -33,13 +34,13 @@ popular_start_stationi <- newyork_data %>% group_by(Start.Station) %>% count(sor
 gender_distribution <- newyork_data %>% group_by(Gender) %>% count() %>%
                      ggplot(., aes(Gender, n, color = Gender)) + geom_col() + labs(y="Gender Count", x = "Gender") + 
                     ggtitle("Gender Distribution")
-gender_distribution
+ggplotly(gender_distribution)
  
 user_type_count <- newyork_data %>% group_by(User.Type) %>% count() %>%
                      ggplot(., aes(User.Type, n, color = User.Type)) + geom_col() + labs(y="UserType Count", x = "User Type") + 
                     ggtitle("User Distribution")                       
 
-user_type_count
+ggplotly(user_type_count)
                 
 user_distribution_gender <- newyork_data %>% group_by(User.Type, Gender) %>% count() %>%
                      ggplot(., aes(User.Type, n, color = Gender)) + geom_col() + facet_wrap(~Gender) + labs(y="UserType Count", x = "User Type") + 
