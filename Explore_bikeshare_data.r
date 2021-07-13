@@ -40,7 +40,7 @@ user_type_count <- newyork_data %>% group_by(User.Type) %>% count() %>%
                      ggplot(., aes(User.Type, n, color = User.Type)) + geom_col() + labs(y="UserType Count", x = "User Type") + 
                     ggtitle("User Distribution")                       
 
-user_type_count
+ggplotly(user_type_count)
                 
 user_distribution_gender <- newyork_data %>% group_by(User.Type, Gender) %>% count() %>%
                      ggplot(., aes(User.Type, n, color = Gender)) + geom_col() + facet_wrap(~Gender) + labs(y="UserType Count", x = "User Type") + 
