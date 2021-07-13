@@ -14,3 +14,5 @@ The data used are available on Udacity, but for this project only data for Newyo
 ### Credits
 The project was required for the completion of the AAL Udacity Data Analysis Nano Degree
 
+## Appreciation
+Glad that AAL came up with this initiative, it is quite impressive
