@@ -1,17 +1,16 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+This project was created on July 1st 2021 and the README.md file was created on July 13th 2021
 
 ### Project Title
-Replace the Project Title
+Explore Bikeshare Data in R
 
 ### Description
-Describe what your project is about and what it does
+This is a project about how bikes are rented in Newyork, Chicago and Washington, it shows how men and woman rented bikes for a certain period and which of them were customers or subcribers.
 
 ### Files used
-Include the files used
+The data used are available on Udacity, but for this project only data for Newyork, Chicago and Washinton was utilised
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The project was required for the completion of the AAL Udacity Data Analysis Nano Degree
 
