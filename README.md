@@ -16,3 +16,6 @@ The project was required for the completion of the AAL Udacity Data Analysis Nan
 
 ## Appreciation
 Glad that AAL came up with this initiative, it is quite impressive
+
+## Note
+Please only consider the part of the project where questions were answered which is further below
